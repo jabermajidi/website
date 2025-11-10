@@ -1,0 +1,38 @@
+.continer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color:aqua;
+    gap: 10px;
+    aspect-ratio: 1/1;
+    width: 50%;
+    border-radius: 20px;
+    margin: 10% auto;
+    padding: 10px;
+    
+}
+.continer>div{
+    padding: 25px 0;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.child1{
+    grid-row: 1/4;
+}
+.child6{
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+.child5{
+    grid-column: 2/3;
+}
+.child3{
+    grid-row: 1/3;
+    grid-column: 3/4;
+}
+.continer>:hover{
+    background-color:greenyellow;
+}
